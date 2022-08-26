@@ -61,6 +61,16 @@ Algoritmo
 			escribir "n1 es menor a n2"
 		fin si
 	fin si
+	
+	si flag = 1
+		escribir ""
+		escribir ""
+	fin si
+	
+	si flag = 0
+		escribir ""
+	fin si
 	//ver como deberia usar "flag" en esta situacion o alguna otra
+	
 		
 finAlgoritmo
