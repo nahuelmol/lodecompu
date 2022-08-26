@@ -5,4 +5,9 @@ Algoritmo sin_titulo
 		i = i+1
 	Fin Mientras
 	
+	Repetir
+		Escribir "chau, ",i
+		i = i+1
+	Hasta Que i=10
+	
 FinAlgoritmo
