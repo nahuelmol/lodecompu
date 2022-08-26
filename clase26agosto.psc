@@ -33,7 +33,7 @@ Algoritmo sin_titulo
 	
 FinAlgoritmo
 
-###################################################################################3
+###################################################################################
 ejercicio 1
 //pasar a radianes
 
@@ -42,6 +42,7 @@ Algoritmo
 	ang_rad <- angulo*pi/180
 finAlgoritmo
 
+###################################################################################
 ejercicio 2
 //leer 2 n° enteros y compararlos, sin son iguales o diferentes cual es mayor o menor
 
@@ -60,5 +61,6 @@ Algoritmo
 			escribir "n1 es menor a n2"
 		fin si
 	fin si
+	//ver como deberia usar "flag" en esta situacion o alguna otra
 		
 finAlgoritmo
