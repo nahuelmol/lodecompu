@@ -1,7 +1,7 @@
 Algoritmo sin_titulo
 	i <- 0
 	i <- 0
-	Escribir  "ingrese un limite"
+	Escribir  "hola buen dia, ingrese un limite"
 	Leer limite
 	
 	escribir "el limite es, ", limite
