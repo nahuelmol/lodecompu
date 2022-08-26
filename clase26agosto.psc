@@ -1,3 +1,8 @@
+Funcion result <- myfunc ( input )
+	result<- input +2
+Fin Funcion
+
+
 Algoritmo sin_titulo
 	i <- 0
 	i <- 0
@@ -22,4 +27,38 @@ Algoritmo sin_titulo
 		j=j+1
 	Fin Para
 	
+	res <- myfunc(limite)
+	escribir res
+	
+	
 FinAlgoritmo
+
+###################################################################################3
+ejercicio 1
+//pasar a radianes
+
+Algoritmo
+	result <- grados + min/60 + seg/3600
+	ang_rad <- angulo*pi/180
+finAlgoritmo
+
+ejercicio 2
+//leer 2 n° enteros y compararlos, sin son iguales o diferentes cual es mayor o menor
+
+Algoritmo
+	escribir "ingrese el primer numero"
+	leer n1
+	escribir "ingrese el segundo numero"
+	leer n2
+	
+	si n1 > n2 entonces
+		escribir "n1 es mayor a n2"
+	sino 
+		si n1 = n2 entonces
+			escribir "n1 y n2 son iguales"
+		sino 
+			escribir "n1 es menor a n2"
+		fin si
+	fin si
+		
+finAlgoritmo
