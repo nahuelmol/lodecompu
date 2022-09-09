@@ -1,0 +1,63 @@
+ejercicio1)
+Nos toca decirle a un piloto de f1 si tendra puntos segun su posicion de llegada. Teniendo en cuenta que el 10-ecimo es el ultimo que puede llevarse al menos un punto.
+
+Algoritmo ejercicio3
+	
+	escribir "ingresa tu posicion"
+	leer posicion
+	
+	Si posicion <= 10 Entonces
+		escribir "tendras puntos"
+	FinSi	
+	
+FinAlgoritmo
+
+
+ejercicio2)
+
+problema
+
+En la NBA, para equilibrar el rendimiento de las franquicias en cuanto a la adqucision de jovenes talentos, se realiza un "draft". En este los 14 peores equipos tendran la posibilidad de elegir a los mejores jovenes talentos que se postulan para entrar a la NBA, logicamente existe un ranking construido durante la "off-season" (fuera de temporada regular) de 60 jugadores dividido en dos tandas de 30 y 30. Mientras que los 16 mejores equipos, que jugaron los playoffs pasados, solo podran valerse de los "peores" jugadores del ranking, es decir entre los 30 de la 2da tanda.
+Cabe aclara que la eleccion se realiza por sorteo.
+El siguiente programa tendra que analizar si el equipo interesado en un jugador es apto para elegir entre los 30 mejores o los 30 peores.
+
+Algoritmo ejercicio2
+	escribir "ingresa tu posicion de la temporada anterior"
+	leer pos
+	
+	si pos <> 16
+		escribir "tu jugaste playoffs, asique solo puedes elegir a los del ranking de la 2da tanda"
+		
+		pick <- aleatorio(16,30)
+		Escribir "te toco el ", pick
+	SiNo
+		escribir "te fue bastante mal la ultima vez, esta es tu oportunidad para mejorar el año proximo"
+		
+		pick <- aleatorio(1,15)
+		Escribir "te toco el ", pick
+		
+	FinSi
+	
+FinAlgoritmo
+
+ejercicio3)
+
+problema
+
+se quiere saber si jovenes son maores de edad para venderles alcohol, entonces el kioskero realiza el siguiente programa
+
+Algoritmo ejercicio3
+	
+	escribir "ingresa tu edad"
+	leer edad
+	
+	Si posicion < 18 Entonces
+		escribir "no te puedo vender alcohol, gracias vuelva pronto"
+	FinSi
+	
+FinAlgoritmo
+
+
+ejercicio4)
+
+
