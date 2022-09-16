@@ -62,3 +62,39 @@ Algoritmo sin_titulo
 	escribir "la maxima profundidad es: ", maxprof
 	
 FinAlgoritmo
+
+
+Algoritmo sin_titulo 
+	
+	acumulador <- 0
+	contTOTAL <- 0
+	contimp <- 0
+	sum4 <- 0	
+	cont4 <- 0
+	
+	
+	Para n=0 hasta 10 con Paso 3 Hacer
+		Escribir n
+		
+		si n MOD(4) = 0
+			sum4 <- sum4 + n
+			escribir "multiplo de 4"
+			
+			cont4 <- cont4 + 1
+			
+		FinSi
+		
+		si acumulador MOD(2) =1
+			sumIMP <- sumIMP + n
+			contimp <- contimp +1
+		FinSi
+		
+		contTOTAL <- contTOTAL + 1
+		
+	Fin Para
+	
+	promedio <- sumIMP/contimp
+	porcentaje <- (cont4 * 100)/contTOTAL
+	
+FinAlgoritmo
+
