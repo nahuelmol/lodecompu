@@ -1,0 +1,62 @@
+Algoritmo sin_titulo
+	maxhora=0
+	maxmagn=-999
+	maxprof=-999
+	profdmmagn=0
+	
+	prof <- 0
+	magn <- 0
+	hora <- 0
+	
+	acumulador <- 0
+	cont <- 0
+	escribir "ingrese la magnitud del sismo"
+	leer magn
+	escribir "ingrese hora del sismo"
+	leer hora
+	escribir "ingrese profundidad en km"
+	leer prof
+	Mientras prof <= 150 
+		
+
+		si maxmagn < magn Entonces
+				maxmagn = magn
+				maxhora = hora
+				profdmmagn = prof
+		FinSi
+		
+		si maxprof < prof Entonces
+			maxprof = prof
+		FinSi
+		
+		acumulador <- acumulador + prof
+		axumulador1 <- acumulador1 + magn
+		cont <- cont + 1
+	
+
+		escribir "ingrese la magnitud del sismo"
+		leer magn
+		escribir "ingrese hora del sismo"
+		leer hora
+		escribir "ingrese profundidad en km"
+		leer prof
+		
+		si magn > 5 y hora < 900 entonces
+			escribir "atencion! atencion!"
+		FinSi
+		
+		si prof < 10 y magn < 5 Entonces
+			escribir "atencion! atencion!"
+		FinSi
+		
+	FinMientras
+	
+	 
+	
+	escribir "la maxima magnitud es: ", maxmagn, " a las ", maxhora
+	Escribir "el promedio de profundidades es: ", acumulador/cont
+	escribir "el promedio de magnitudes es: ", acumulador1/cont
+	escribir "la profundidad de la maxima magnitud es: ", profdmmagn
+	escribir "la maxima profundidad es: ", maxprof
+	
+FinAlgoritmo
