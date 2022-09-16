@@ -9,7 +9,9 @@ Algoritmo sin_titulo
 	hora <- 0
 	
 	acumulador <- 0
+	acumulador1 <- 0
 	cont <- 0
+	
 	escribir "ingrese la magnitud del sismo"
 	leer magn
 	escribir "ingrese hora del sismo"
